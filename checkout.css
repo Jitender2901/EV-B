@@ -1,0 +1,785 @@
+
+.Productspage {
+  /* width: 1512px;
+  height: 982px; */
+  position: relative;
+  background: white;
+  overflow: hidden;
+}
+
+.navbar {
+  height: 80px;
+  background-color: #222F3d;
+  border: #000;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+/* Cart */
+.nav-cart i{
+font-size: 30px;
+}
+
+.nav-cart{
+font-size: 0.85rem;
+font-weight: 700;
+color: white;
+cursor: pointer;
+}
+
+.nav-cart:hover {
+color: white;
+transform: scale(1.13);
+}
+
+.border {
+border: 2px solid transparent;
+}
+
+
+.border:hover {
+border: 2px solid white ;
+}
+
+/* panel */
+.panel{
+height: 40px;
+background-color: black;
+display: flex;
+color: white;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.panel-all{
+cursor: pointer;
+}
+
+.panel-ops p {
+display: inline;
+margin-left: 15px;
+cursor: pointer;
+}
+
+.panel-ops p:hover {
+border: 2px solid white;
+}
+
+.panel-ops{
+width: 70%;
+font-size: 0.85rem;
+transition: border 0.2s ease;
+}
+
+.panel-deals{
+font-size: 0.9rem;
+font-weight: 700;
+cursor: pointer;
+}
+
+.logo {
+width: 70px;
+height: 55px;
+mix-blend-mode: "darken";
+}
+
+.Home, .Aboutus, .Contact {
+color: white;
+font-size: 12px;
+font-family: Inter;
+font-weight: 700;
+letter-spacing: 4.20px;
+word-wrap: break-word;
+}
+
+.Group2  {
+  width: 90px;
+  height: 35px;
+  background: linear-gradient(180deg, #9AE0D3 21%, #34AFA0 89%);
+  border-radius: 15px;
+  border: 1.5px #69ABA2 solid;
+}
+
+.Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 35px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.35em;
+  color: #FFFFFF;
+}
+
+.Group2:hover {
+  background: linear-gradient(180deg, #8ACCC3 21%, #30A093 89%);
+  transform: scale(1.05);
+}
+
+.Group2:hover .Login {
+  color: white;
+}
+
+.Login a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+button a {
+  color: #000;
+  text-decoration: none;
+}
+
+.Home a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Contact a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+.products-grid {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: initial;
+  grid-template-columns: repeat(4, 1fr); /* Ensure 4 columns for 4 products */
+  grid-gap: 20px; /* Space between containers */
+  justify-items: center;
+}
+
+.product-container {
+  padding: 20px;
+  border-right: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  flex-direction: column;
+  width: 324px; /* Fixed width for the product container */
+  height: 723px; /* Fixed height for the product container */
+
+}
+
+/* Remove the right border on the last product in each row */
+.product-container:nth-child(4n) {
+  border-right: none;
+}
+
+
+.product-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 322px; /* Image container height */
+  margin-bottom: 10px;
+}
+
+.product-image {
+  margin-top: 50px;
+  max-width: 298px;
+  max-height: 298px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-name {
+  width: 298px;
+  height: 110px; 
+  margin-top: 30px;
+  font-size: 16px; 
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  font-weight: 300;
+  color: #000;
+
+}
+
+.product-rating-container {
+  width: 125px;
+  height: 25.38px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.product-rating-stars {
+  width: 80px; 
+  margin-right: 6px;
+}
+
+.product-rating-count {
+  color: rgb(1, 124, 182);
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.product-price {
+  width: 225px;
+  height: 102px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 50;
+}
+
+.product-quantity-container {
+  margin-bottom: 17px;
+}
+
+.product-spacer {
+  flex: 1;
+}
+
+.added-to-cart {
+  color: rgb(6, 125, 98);
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
+
+  opacity: 0;
+}
+
+.added-to-cart img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.add-to-cart-button {
+  width: 100%;
+  padding: 8px;
+  border-radius: 50px;
+  background-color: rgb(255, 208, 0);
+  color: #000;
+  border: 1px solid rgb(255, 204, 0); /* Ensure there's a border for the color to apply */
+  cursor: pointer; 
+  transition: background-color 0.1s ease, color 0.1s ease, transform 0.1s ease;
+  
+}
+
+.add-to-cart-button:hover  {
+  background-color: white; /* Darken the background on hover */
+  color: black; /* Change text color to white on hover */
+  border-color: black; /* Slightly change the border color on hover */
+}
+
+.add-to-cart-button:active  {
+  background-color: rgb(255, 150, 0); /* Darken the background on click */
+  transform: scale(0.95); /* Slightly scale down the button to give a pressed effect */
+
+}
+
+
+.off{
+  color: #cc1c39;
+  font-size: 28px;
+  display: inline-flex;
+  font-weight: 50;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#bought{
+  width: 206px;
+  height: 19px;
+  padding-bottom: 3px;
+  font-size: 14px;
+  color: #565959;
+}
+
+.mrp{
+  font-size: 12px;
+  color: #565959;
+}
+
+.text-decoration{
+  display: inline;
+  text-decoration:line-through;
+}
+
+.arrival-details{
+  font-size: 14px;
+  color: #000;
+  padding-top: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+span{
+  font-size: 16px;
+  color: #0f1111;
+}
+.nav-signin span{
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.nav-return span{
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.Aboutus a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* search bar */
+
+.nav-search{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #febd68;
+  width: 620px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.nav-search:hover {
+  border: 2px solid orange;
+}
+
+.search-input{
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-select{
+background-color: #F3F3F3;
+width: 45px;
+text-align: center;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border: none;
+}
+
+.search-icon{
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+}
+
+
+/* footer */
+
+.footer {
+margin-top: 25px;
+}
+
+.foot-panel1{
+background-color: #37475a;
+color: white;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 0.85rem;
+}
+
+.foot-panel1 p:hover {
+color: #febd68; 
+text-decoration: underline;
+}
+
+.foot-panel2{
+background-color: #222F3d;
+color: white;
+height: 300px;
+display: flex;
+justify-content: space-evenly;
+}
+
+ul {
+margin-top: 20px;
+font-weight: 700;
+}
+
+ul a {
+display: block;
+font-size: 0.7rem;
+margin-top: 10px;
+color: #dddddd;
+}
+a{
+color: #007185;
+display: inline;
+font-size: 0.85rem;
+text-decoration: none;
+cursor: pointer;
+transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+}
+a:hover{
+color: #f58e07;
+text-decoration: none; 
+cursor: pointer;
+}
+
+a1 {
+color: white;
+display: inline;
+font-size: 0.85rem;
+text-decoration: none;
+cursor: pointer;
+transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+}
+a1:hover {
+text-decoration: underline; 
+cursor: pointer;
+
+}
+
+.foot-panel2 a {
+color: #dddddd; /* Normal link color */
+text-decoration: none; /* Remove underline */
+transition: color 0.2s ease; /* Smooth transition */
+}
+
+.foot-panel2 a:hover {
+color: #febd68; /* Change the color on hover */
+text-decoration: underline; /* Add underline on hover */
+}
+
+
+.foot-panel3{
+background-color: #222F3d;
+border-top: 0.5px solid white;
+height: 70;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.language-select {
+margin-left: 3px;
+background-color: transparent;
+color: white;
+}
+
+.language-icon{
+display: flex;
+width: 100%;
+height: 100%;
+align-items: center;
+color: white;
+}
+
+.foot-panel4{
+background-color: #0f1111;
+height: 75px;
+font-size: 0.7rem;
+text-align: center;
+color: white;
+}
+
+.pages{
+padding-top: 25px;
+}
+
+.copyright{
+text-align: center;
+}
+
+.body{
+  background: linear-gradient(123deg, #EFF6F8 0%, #B3D0D9 78%, #DDE7EA 100%);
+}
+
+.main {
+  max-width: 1100px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  margin-top: 140px;
+  margin-bottom: 100px;
+
+  /* margin-left: auto;
+     margin-right auto;
+     Is a trick for centering an element horizontally
+     without needing a container. */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-title {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+.checkout-grid {
+  display: grid;
+  /* Here, 1fr means the first column will take
+     up the remaining space in the grid. */
+  grid-template-columns: 1fr;
+  column-gap: 12px;
+
+  /* Use align-items: start; to prevent the elements
+     in the grid from stretching vertically. */
+  align-items: start;
+  flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    max-width: 500px;
+  }
+
+  .checkout-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cart-item-container,
+.payment-summary {
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 4px;
+  padding: 18px;
+  position: relative;
+}
+
+.cart-item-container {
+  margin-bottom: 50px;
+  height: 400px;
+  width: 1200px;
+
+}
+
+.payment-summary {
+  padding-bottom: 5px;
+  display: block;
+}
+
+.summary-item{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ordertotal{
+  color: red;
+}
+
+.ordernow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 550;
+  height: 35px;
+  color: rgb(33, 33, 33);
+  background-color: rgb(255, 216, 20);
+  border: 1px solid rgb(252, 210, 0);
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+
+@media (max-width: 1000px) {
+  .payment-summary {
+    /* grid-row: 1 means this element will be placed into row
+      1 in the grid. (Normally, the row that an element is
+      placed in is determined by the order of the elements in
+      the HTML. grid-row overrides this default ordering). */
+    grid-row: 1;
+    margin-bottom: 12px;
+  }
+}
+
+.delivery-date {
+  color: rgb(0, 118, 0);
+  font-weight: 750;
+  font-size: 19px;
+  margin-top: 5px;
+  margin-bottom: 22px;
+}
+
+.delivery-date-text {
+  color: rgb(0, 118, 0);
+  font-weight: 750;
+  font-size: 19px;
+  margin-top: 5px;
+  margin-bottom: 22px;
+}
+
+.cart-item-details-grid {
+  display: grid;
+  /* 100px 1fr 1fr; means the 2nd and 3rd column will
+     take up half the remaining space in the grid
+     (they will divide up the remaining space evenly). */
+  grid-template-columns: 100px 1fr 1fr;
+  column-gap: 25px;
+}
+
+@media (max-width: 1000px) {
+  .cart-item-details-grid {
+    grid-template-columns: 100px 1fr;
+    row-gap: 30px;
+  }
+}
+
+.product-image {
+  max-width: 370px;
+  max-height: 270px;
+  /* margin-left: auto;
+     margin-right auto;
+     Is a trick for centering an element horizontally
+     without needing a container. */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-image-1 {
+  max-width: 370px;
+  max-height: 270px;
+  /* margin-left: auto;
+     margin-right auto;
+     Is a trick for centering an element horizontally
+     without needing a container. */
+  margin-left: 30px;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.product-name {
+  font-weight: 700;
+  margin-bottom: 10px;
+  position: absolute;
+  width: 570px;
+  margin-left: 230px;
+}
+
+.product-price {
+  color: rgb(177, 39, 4);
+  font-weight: 700;
+  position: absolute;
+  margin-top: 255px;
+  left: 370px;
+}
+
+.product-quantity .link-primary {
+  margin-left: 3px;
+}
+
+.product-quantity{
+  position: absolute;
+  margin-top: 300px;
+  left: 370px;
+}
+
+@media (max-width: 1000px) {
+  .delivery-options {
+    /* grid-column: 1 means this element will be placed
+       in column 1 in the grid. (Normally, the column that
+       an element is placed in is determined by the order
+       of the elements in the HTML. grid-column overrides
+       this default ordering).
+       
+       / span 2 means this element will take up 2 columns
+       in the grid (Normally, each element takes up 1
+       column in the grid). */
+    grid-column: 1 / span 2;
+  }
+}
+
+.delivery-options-title {
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-left: 338px;
+  margin-top: 20px;
+}
+
+.delivery-option {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin-left: 325px;
+  margin-top: 20px;
+}
+
+.delivery-option-input {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Remove default focus outline from radio buttons */
+.delivery-option-input:focus {
+  outline: none; /* Remove the outline */
+}
+
+.delivery-option-date {
+  color: rgb(0, 118, 0);
+  font-weight: 550;
+  margin-bottom: 3px;
+  white-space: nowrap;
+}
+
+.delivery-option-price {
+  color: rgb(120, 120, 120);
+  font-size: 15px;
+}
+
+.payment-summary-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.payment-summary-row {
+  display: grid;
+  /* 1fr auto; means the width of the 2nd column will be
+     determined by the elements inside the column (auto).
+     The 1st column will take up the remaining space. */
+  grid-template-columns: 1fr auto;
+
+  font-size: 15px;
+  margin-bottom: 9px;
+}
+
+.payment-summary-money {
+  text-align: right;
+}
+
+.subtotal-row .payment-summary-money {
+  border-top: 1px solid rgb(222, 222, 222);
+}
+
+.subtotal-row div {
+  padding-top: 9px;
+}
+
+.total-row {
+  color: rgb(177, 39, 4);
+  font-weight: 700;
+  font-size: 18px;
+
+  border-top: 1px solid rgb(222, 222, 222);
+  padding-top: 18px;
+}
+
+.place-order-button {
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 10px;
+
+  margin-top: 11px;
+  margin-bottom: 15px;
+}
+

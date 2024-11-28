@@ -1,0 +1,532 @@
+.ContactPage {
+  width: 1512px;
+  height: 982px;
+  position: relative;
+  background: linear-gradient(123deg, #EFF6F8 0%, #B3D0D9 78%, #DDE7EA 100%);
+  overflow: hidden;
+}
+
+.logo {
+  width: 70px;
+  height: 55px;
+  left: 12px;
+  top: 12px;
+  position: absolute;
+}
+
+.Group2 .Rectangle3 {
+  width: 105px;
+  height: 38px;
+  position: absolute;
+  left: 1195px;
+  top: 15px;
+  background: linear-gradient(180deg, #9AE0D3 21%, #34AFA0 89%);
+  border-radius: 15px;
+  border: 1.5px #69ABA2 solid;
+}
+
+.Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 105px;
+  height: 34px;
+  position: absolute;
+  left: 1198px;
+  top: 17px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.35em;
+  color: #FFFFFF;
+}
+
+.Group2:hover .Rectangle3 {
+  background: linear-gradient(180deg, #8ACCC3 21%, #30A093 89%);
+  transform: scale(1.05);
+}
+
+.Group2:hover .Login {
+  color: white;
+}
+
+.Contact, .Aboutus, .Products, .Home {
+  position: absolute;
+  color: #2C4757;
+  font-size: 10px;
+  font-family: Inter;
+  font-weight: 700;
+  letter-spacing: 4.2px;
+}
+
+.Contact { left: 906px; top: 30px; }
+.Aboutus { left: 747px; top: 30px; }
+.Products { left: 570px; top: 30px; }
+.Home {
+  left: 441px;
+  top: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.Products a {
+  color: #2C4757;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Aboutus a {
+  color: #2C4757;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Home a {
+  color: #2C4757;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Contact a {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* General Styles */
+body {
+    font-family: Inter, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .Group5 .Rectangle18 {
+    width: 546px;
+    height: 554px;
+    background-color: #66BEDB;
+    position: absolute;
+    top: 300px;
+    left: 460px;
+  }
+  .ContactUs {
+    width: 546px;
+    height: 77px;
+    position: absolute;
+    top: 345px;
+    left: 490px;
+    font-size: 64px;
+    font-weight: 800;
+  }
+  .Rectangle20 {
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    top: 454px;
+    left: 525px;
+    background: #FFFFFF;
+    border: 0.25px solid black;
+  }
+
+  .search-input {
+    padding: 10px;
+    width: 377px;
+    height: 8px;
+  }
+
+  .search-input1 {
+    width: 400px;
+    height: 176px;
+    position: absolute;
+    
+  }
+
+textarea {
+    padding: 10px; /* Adjust as per your requirement */
+    box-sizing: border-box; /* Ensures padding is included in the width/height */
+}
+
+textarea::placeholder {
+    padding-left: 0px; /* Same padding for placeholder */
+    color: gray; /* Adjust the placeholder color */
+}
+
+  .EnterYourName{
+    color: black;
+    font-size: 10px;
+    width: 207px;
+    height: 23px;
+    position: absolute;
+    left: 12px;
+    top: 10px;
+  }
+
+  .Rectangle21 {
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    top: 524px;
+    left: 525px;
+    background: #FFFFFF;
+    border: 0.25px solid black;
+  }
+
+  .EnterAValidEMailAddress {
+    color: black;
+    font-size: 10px;
+    width: 207px;
+    height: 23px;
+    position: absolute;
+    left: 12px;
+    top: 10px;
+  }
+
+   .Rectangle19 {
+    width: 400px;
+    height: 176px;
+    position: absolute;
+    top: 614px;
+    left: 525px;
+    background: #FFFFFF;
+    border: 0.25px solid black;
+    mask-type: alpha;
+    
+  }
+
+  .Rectangle22 {
+    width: 104px;
+    height: 30px;
+    position: absolute;
+    top: 814px;
+    left: 673px;
+    background: linear-gradient(180deg, #8ACCC3 21%, #30A093 89%);
+    border: 1.5px #69ABA2 solid;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .Submit {
+    width: 41px;
+    height: 11px;
+    color: white;
+    position: absolute;
+    top: 821px;
+    left: 695px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+  }
+
+  .Rectangle22:hover {
+    background: linear-gradient(180deg, #8ACCC3 21%, #30A093 89%);
+    transform: scale(1.05);
+  }
+
+  /* Group 8: Phone Number Section */
+  .Group8 {
+    width: 220px;
+    height: 184px;
+    left: 517px;
+    top: 148px;
+    position: absolute;
+  }
+  
+  .Rectangle15 {
+    width: 220px;
+    height: 172px;
+    left: 0px;
+    top: 3px;
+    position: absolute;
+    background: #5EC4B6;
+    border: 0.25px solid black;
+    border-radius: 10px;
+  }
+  
+  .PhoneNumber9191929394951800180180 {
+    width: 146px;
+    height: 109px;
+    left: 35px;
+    top: 75px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .PhoneNumber9191929394951800180180 span {
+    display: block;
+  }
+  
+  .Image {
+    width: 73px;
+    height: 55px;
+    left: 75px;
+    top: 10px;
+    position: absolute;
+    mix-blend-mode: darken;
+  }
+  
+  /* Group 7: E-mail Section */
+  .Group7 {
+    width: 220px;
+    height: 174px;
+    left: 754px;
+    top: 149px;
+    position: absolute;
+  }
+  
+  .Rectangle16 {
+    width: 220px;
+    height: 172px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #5EC4B6;
+    border: 0.25px solid black;
+    border-radius: 10px;
+  }
+  
+  .EMailEvbgurugramGmailCom {
+    width: 175px;
+    height: 99px;
+    left: 20px;
+    top: 75px;
+    position: absolute;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .Image16 {
+    width: 55px;
+    height: 45px;
+    left: 80px;
+    top: 15px;
+    position: absolute;
+    mix-blend-mode: darken;
+  }
+  
+  /* Group 6: Instagram Section */
+  .Group6 {
+    width: 220px;
+    height: 183px;
+    left: 991px;
+    top: 149px;
+    position: absolute;
+  }
+
+  .InstagramOfficialevbHere {
+    width: 175px;
+    height: 99px;
+    left: 24px;
+    top: 75px;
+    position: absolute;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .Rectangle17 {
+    width: 220px;
+    height: 172px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #5EC4B6;
+    border: 0.25px solid black;
+    border-radius: 10px;
+  }
+  
+  .Image17 {
+    width: 73px;
+    height: 65px;
+    left: 78px;
+    top: 5px;
+    position: absolute;
+    mix-blend-mode: darken;
+  }
+  
+  /* Address Section */
+  .Address {
+    width: 220px;
+    height: 172px;
+    left: 280px;
+    top: 149px;
+    position: absolute;
+  }
+  
+  .Rectangle14 {
+    width: 220px;
+    height: 172px;
+    position: absolute;
+    background: #5EC4B6;
+    border: 0.25px solid black;
+    border-radius: 10px;
+  }
+
+  .Image2 {
+    width: 40px;
+    height: 40px;
+    left: 90px;
+    top: 15px;
+    position: absolute;
+  }
+  
+  
+  .OurMainOfficeSector29GurugramHaryana122003 {
+    width: 146px;
+    height: 79px;
+    left: 36px;
+    top: 72px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .Ellipse1 {
+    width: 1598px;
+    height: 1570px;
+    left: 813px;
+    top: -655px;
+    position: absolute;
+    background: #C8E0E8;
+    border-radius: 9999px;
+  }
+
+  .Ellipse2 {
+    width: 1598px;
+    height: 1570px;
+    left: -911px;
+    top: 69px;
+    position: absolute;
+    background: #C8E0E8;
+    border-radius: 9999px;
+  }
+
+  
+footer {
+  background: #fff;
+  padding: 20px 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer-section h4 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #333;
+}
+
+/* Footer */
+  
+.footer {
+  background: inherit;
+  margin-top: 0px;
+  width: 1512px;
+  background-color: #191919;
+}
+
+.foot {
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footlinks h4 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.footlinks h4::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 70px;
+  left: 0;
+  bottom: -7px;
+  background: white;
+}
+
+.footlinks ul li {
+  margin-bottom: 15px;
+}
+
+.footlinks ul li a {
+  font-size: 17px;
+  color: #dddddd;
+  display: block;
+  transition: ease 0.3s;
+}
+
+.footlinks ul li a:hover {
+  transform: translate(6px);
+  color: white;
+}
+
+.social a {
+  font-size: 25px;
+  margin: 4px;
+  height: 40px;
+  width: 40px;
+  color: rgb(21, 74, 74);
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: ease 0.3s;
+}
+
+.social a:hover {
+  transform: scale(1.2);
+}
+
+.end {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 12px;
+}
+
+.end p {
+  font-size: 15px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 300;
+}

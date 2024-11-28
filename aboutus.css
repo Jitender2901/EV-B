@@ -1,0 +1,311 @@
+*{
+  width: auto;
+  height: auto;
+}
+.Productspage {
+  width: 1512px;
+  height: 1600px;
+  position: relative;
+  background: linear-gradient(123deg, #EFF6F8 0%, #B3D0D9 78%, #DDE7EA 100%);
+  overflow: hidden;
+}
+
+.navbar {
+  height: 120px;
+  background: linear-gradient(123deg, #EFF6F8 0%, #B3D0D9 78%, #DDE7EA 100%);
+  border: #000;
+  border-radius: 120;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-evenly;
+}
+
+.logo {
+    width: 70px;
+    height: 55px;
+    left: 14px;
+    top: 14px;
+    position: absolute;
+    mix-blend-mode: darken;
+  }
+  
+  .Home, .HowEV-Bworks, .Creators, .Culture, .Blog {
+    position: absolute;
+    color: #2C4757;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 700;
+    letter-spacing: 4.20px;
+    word-wrap: break-word;
+    cursor: pointer;
+  }
+  
+  .Home {
+    left: 300px;
+    top: 42px;
+  }
+  
+  .HowEV-Bworks {
+    left: 480px;
+    top: 42px;
+  }
+  
+  .Creators {
+    left: 730px;
+    top: 42px;
+  }
+  
+  .Culture {
+    left: 900px;
+    top: 42px;
+  }
+  
+  .Blog {
+    left: 1140px;
+    top: 42px;
+  }
+
+  .Group2 .Rectangle3 {
+      width: 105px;
+      height: 38px;
+      position: absolute;
+      left: 1300px;
+      top: 26px;
+      background: linear-gradient(180deg, #9AE0D3 21%, #34AFA0 89%);
+      border-radius: 15px;
+      border: 1.5px #69ABA2 solid;
+    }
+    
+    .Login {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 105px;
+      height: 34px;
+      position: absolute;
+      left: 1303px;
+      top: 29px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.35em;
+      color: #FFFFFF;
+    }
+    
+    .Group2:hover .Rectangle3 {
+      background: linear-gradient(180deg, #8ACCC3 21%, #30A093 89%);
+      transform: scale(1.05);
+    }
+  
+    .Group2:hover .Login {
+      color: white;
+    }
+  
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  
+    .Home a {
+      color: #2C4757;
+      text-decoration: none;
+      font-size: 12px;
+      font-family: Inter;
+      font-weight: 700;
+      letter-spacing: 4.20px;
+    }
+
+    .AboutEV-B {
+      font-size: 120px;
+      font-family: Inter;
+      font-weight: 700;
+      letter-spacing: 2px;
+      position: absolute;
+      left: 450px;
+      top: 120px;
+    }
+
+    .para {
+      font-size: 45px;
+      font-family: Inter;
+      letter-spacing: 0px;
+      position: absolute;
+      justify-content: center;
+      text-align: center;
+      top: 250px;
+      margin-top: 30px;
+    }
+
+    .Tagline {
+      font-size: 30px;
+      font-family: Inter;
+      letter-spacing: 0px;
+      position: absolute;
+      justify-content: center;
+      text-align: center;
+      top: 520px;
+      margin-top: 30px;
+      color: #202124;
+    }
+
+    .blue {
+      color: #4285f4;
+    }
+
+    .red {
+      color: #ea4335;
+    }
+
+    .green{
+      color: #34a853;
+    }
+
+    .orange{
+      color: #e37400;
+    }
+
+
+    .collage {
+      position: absolute;
+      justify-content: center;
+      margin-top: 20px;
+      top: 650px;
+      width: 730.66px;
+      height: 410.99;
+    }
+
+    .para2 {
+      font-size: 49px;
+      font-family: Inter;
+      letter-spacing: 0px;
+      position: absolute;
+      justify-content: center;
+      text-align: center;
+      left: 400px;
+      top: 1300px;
+      margin-top: 20px;
+      color: #202124;
+      width: 730px;
+      height: 117px;
+    }
+
+    .Group3 .Rectanglebox {
+      width: 216px;
+      height: 49px;
+      background: #1a73e8;
+      position: absolute;
+      top: 1450px;
+      left: 500px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .Viewallourproducts {
+      color: white;
+      position: absolute;
+      top: 1464px;
+      left: 535px;
+      font-size: 16px;
+      font-weight: 400;
+      cursor: pointer;
+    }
+
+    .Group4 .Rectanglebox1 {
+      width: 212px;
+      height: 49px;
+      background: white;
+      position: absolute;
+      top: 1450px;
+      left: 800px;
+      border-color: #000;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .Getproductsupport a {
+      color: #1a73e8;
+      position: absolute;
+      top: 1464px;
+      left: 835px;
+      font-size: 16px;
+      font-weight: 400;
+      cursor: pointer;
+    }
+
+    .line {
+      font-size: 24px;
+      width: 576px;
+      height: 64px;
+      color: #202124;
+      position: absolute;
+      top: 1150px;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .Learnmore {
+      font-size: 14px;
+      color: #1a73e8;
+      margin: 8px;
+      padding: 12px;
+      width: 115px;
+      height: 49px;
+      position: absolute;
+      top: 1250px;
+      left: 700px;
+      cursor: pointer;
+
+    }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+footer {
+    background: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #333;
+}
+
+.Group3:hover .Rectanglebox {
+  background: #1a73e8;
+  transform: scale(1.02);
+}
+
+.Group4:hover .Rectanglebox1 {
+  background: white;
+  transform: scale(1.02);
+}

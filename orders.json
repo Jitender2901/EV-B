@@ -1,0 +1,55 @@
+[
+  {
+    "orderId": "27cba69d-4c3d-4098-b42d-ac7fa62b7664",
+    "orderDate": "August 12",
+    "deliveryDate": "August 15",
+    "items": [
+      {
+        "productId": 1,
+        "name": "EV-B Spectra",
+        "image": "img/spectra.png",
+        "priceCents": 149900,
+        "quantity": 1,
+        "description": "Harness the power of dual hub motors with 2000W combined output, delivering unmatched torque, smooth acceleration, and an impressive top speed of 85 km/h. Wrapped in a sleek metallic frame, the Spectra features a 72V 20Ah lithium-ion battery offering up to 120 km range on a single charge with fast-charging capability. Equipped with hydraulic disc brakes, adjustable suspension, adaptive LED lights, and 18-inch tubeless tires, it ensures a safe, comfortable ride."
+      }
+    ]
+  },
+  {
+    "orderId": "b6b6c212-d30e-4d4a-805d-90b52ce6b37d",
+    "orderDate": "June 10",
+    "deliveryDate": "June 17",
+    "items": [
+      {
+        "productId": 2,
+        "name": "EV-B Nova",
+        "image": "img/nova.png",
+        "priceCents": 152500,
+        "quantity": 1,
+        "description": "The Nova redefines eco-friendliness with its sleek design featuring integrated solar charging panels, keeping you powered on every adventure. Fueled by a powerful 2000W motor and a 72V 20Ah battery, it achieves a top speed of 90 km/h and an impressive range of up to 120 km."
+      }
+    ]
+  },
+  {
+    "orderId": "a1234d56-789e-1011-1213-a14151617181",
+    "orderDate": "September 20",
+    "deliveryDate": "September 25",
+    "items": [
+      {
+        "productId": 3,
+        "name": "EV-B Comet",
+        "image": "img/comet.png",
+        "priceCents": 175000,
+        "quantity": 2,
+        "description": "The Comet revolutionizes performance with its sleek, aerodynamic design and featherlight construction, delivering lightning-fast acceleration and remarkable agility. Driven by a cutting-edge 1800W motor and a 60V 20Ah battery, it reaches exhilarating speeds of up to 85 km/h and offers an extensive range of 110 km."
+      },
+      {
+        "productId": 4,
+        "name": "EV-B Eclipse",
+        "image": "img/eclipse.png",
+        "priceCents": 178600,
+        "quantity": 1,
+        "description": "The Eclipse redefines speed with its aerodynamic design and ultra-lightweight frame, delivering rapid acceleration and peak performance. Powered by a high-efficiency 1500W motor and a 60V 18Ah battery, it offers a top speed of 80 km/h and up to 100 km range."
+      }
+    ]
+  }
+]

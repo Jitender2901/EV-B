@@ -1,0 +1,373 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+.HomePage {
+    width: 1512px;
+    height: 982px;
+    position: relative;
+    background: linear-gradient(123deg, #EFF6F8 0%, #B3D0D9 78%, #DDE7EA 100%);
+    overflow: hidden;
+
+  }
+  
+  .Ellipse1 {
+    width: 1557px;
+    height: 1516px;
+    left: 853px;
+    top: -617px;
+    position: absolute;
+    background: #C8E0E8;
+    border-radius: 9999px;
+  }
+  
+  .Rectangle1 {
+    width: 121px;
+    height: 491px;
+    left: 1391px;
+    top: 0;
+    position: absolute;
+    background: radial-gradient(47.22% 50% at 44.74% 50%, #9AE0D3 0%, #34AFA0 100%);
+  }
+  
+  .TheConcept {
+    transform: rotate(90deg); 
+    color: #FFFAFA; 
+    font-size: 15px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    letter-spacing: 22px; 
+    white-space: nowrap;
+    position: absolute;
+    padding-top: 490px;
+    left: 135px;
+  }
+
+  .Rectangle2 {
+    width: 121px;
+    height: 491px;
+    left: 1391px;
+    top: 491px;
+    position: absolute;
+    background: radial-gradient(47.22% 50% at 44.74% 50%, #A0D8EB 0%, #60b6d3 100%);
+  }
+  
+  .ElectricB{
+    transform: rotate(90deg); 
+    color: #FFFAFA; 
+    font-size: 15px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    letter-spacing: 22px; 
+    white-space: nowrap;
+    position: absolute;
+    padding-top: 490px;
+    left: 145px;
+  }
+
+  .logo {
+    width: 70px;
+    height: 55px;
+    left: 12px;
+    top: 12px;
+    position: absolute;
+  }
+  
+  .Group2 .Rectangle3 {
+    width: 105px;
+    height: 38px;
+    position: absolute;
+    left: 1195px;
+    top: 15px;
+    background: linear-gradient(180deg, #9AE0D3 21%, #34AFA0 89%);
+    border-radius: 15px;
+    border: 1.5px #69ABA2 solid;
+  }
+  
+  .Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 34px;
+    position: absolute;
+    left: 1198px;
+    top: 17px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.35em;
+    color: #FFFFFF;
+  }
+  
+  .Group2:hover .Rectangle3 {
+    background: linear-gradient(180deg, #8ACCC3 21%, #30A093 89%);
+    transform: scale(1.05);
+  }
+
+  .Group2:hover .Login {
+    color: white;
+  }
+
+  .Contact, .Aboutus, .Products, .Home {
+    position: absolute;
+    color: #2C4757;
+    font-size: 10px;
+    font-family: Inter;
+    font-weight: 700;
+    letter-spacing: 4.2px;
+  }
+  
+  .Contact { left: 906px; top: 30px; }
+  .Aboutus { left: 747px; top: 30px; }
+  .Products { left: 570px; top: 30px; }
+  .Home {
+    left: 441px;
+    top: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+  }
+  
+  .EvB {
+    width: 400px;
+    height: 500px;
+    left: 947px;
+    top: 190px;
+    position: absolute;
+    color: hsl(0, 0%, 97%);
+    font-size: 210px;
+    font-family: "Imbue", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    white-space: nowrap;
+  }
+  
+  .EV-Bimage {
+    width: 719px;
+    height: 726px;
+    left: 579px;
+    top: 80px;
+    position: absolute;
+    mix-blend-mode: darken;
+  }
+  
+  .Separator {
+    width: 50px;
+    height: 200px;
+    left: 1070px;
+    top: 190px;
+    position: absolute;
+    color: hsl(0, 0%, 97%);
+    font-size: 200px;
+    font-family: serif;
+    text-transform: uppercase;
+  }
+  
+  .LetSRideThe {
+    left: 68px;
+    top: 384px;
+    position: absolute;
+    color: black;
+    font-size: 38px;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: 18px;
+  }
+  
+  .Future {
+    width: 475px;
+    height: 125px;
+    left: 68px;
+    top: 433px;
+    position: absolute;
+    color: black;
+    font-size: 100px;
+    font-family: Inter;
+    font-weight: 800;
+    letter-spacing: 8px;
+  }
+  
+  .ElegantlyCraftedForModernUsers {
+    left: 68px;
+    top: 556px;
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 200;
+    text-transform: capitalize;
+  }
+
+  .Group2 .Rectangle6 {
+    width: 150px;
+    height: 38px;
+    left: 70px;
+    top: 620px;
+    position: absolute;
+    background: linear-gradient(180deg, #A0D8EB 26%, #6DC2DF 69%);
+    border-radius: 15px;
+    border: 1.5px #528798 solid;
+  }
+  
+  .Sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 34px;
+    left: 78px;
+    top: 623px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.35em;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+  .Group2:hover .Rectangle6 {
+    background: linear-gradient(180deg, #A0D8EB 26%, #6eb5cd 69%);
+    transform: scale(1.05);
+  }
+
+  .Group2:hover .PreOrder {
+    color: white;
+  }
+  
+  .Rectangle7 {
+    width: 536px;
+    height: 85px;
+    left: 707px;
+    top: 763px;
+    position: absolute;
+    background: rgba(174.18, 213.52, 235.65, 0.40);
+    border-radius: 15px;
+    backdrop-filter: blur(100px);
+  }
+  
+  .KmHrSpeed, .KmBatteryRange, .ChargingTime {
+    width: 113px;
+    height: 56px;
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 600;
+    justify-content: space-evenly;
+  }
+  
+  .KmHrSpeed { left: 756px; top: 778px; }
+  .KmBatteryRange { left: 919px; top: 778px; }
+  .ChargingTime { left: 1082px; top: 778px; }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .Products a {
+    color: #2C4757;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .Aboutus a {
+    color: #2C4757;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .Contact a {
+    color: #2C4757;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/* Footer */
+  
+.footer {
+  background: inherit;
+  margin-top: 0px;
+  width: 1512px;
+  background-color: #191919;
+}
+
+.foot {
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footlinks h4 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.footlinks h4::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 70px;
+  left: 0;
+  bottom: -7px;
+  background: white;
+}
+
+.footlinks ul li {
+  margin-bottom: 15px;
+}
+
+.footlinks ul li a {
+  font-size: 17px;
+  color: #dddddd;
+  display: block;
+  transition: ease 0.3s;
+}
+
+.footlinks ul li a:hover {
+  transform: translate(6px);
+  color: white;
+}
+
+.social a {
+  font-size: 25px;
+  margin: 4px;
+  height: 40px;
+  width: 40px;
+  color: rgb(21, 74, 74);
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: ease 0.3s;
+}
+
+.social a:hover {
+  transform: scale(1.2);
+}
+
+.end {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 12px;
+}
+
+.end p {
+  font-size: 15px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+

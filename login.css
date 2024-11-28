@@ -1,0 +1,342 @@
+.LoginPage {
+    width: 1512px;
+    height: 982px;
+    position: relative;
+    background: linear-gradient(123deg, #EFF6F8 0%, #B3D0D9 78%, #DDE7EA 100%);
+    overflow: hidden;
+}
+
+.Ellipse2 {
+  width: 1598px;
+  height: 1570px;
+  left: -911px;
+  top: 69px;
+  position: absolute;
+  background: #C8E0E8;
+  border-radius: 9999px;
+}
+
+.logo {
+  width: 70px;
+  height: 55px;
+  left: 14px;
+  top: 14px;
+  position: absolute;
+  mix-blend-mode: darken;
+}
+
+.Home, .Products, .Aboutus, .Contact {
+  position: absolute;
+  color: #2C4757;
+  font-size: 12px;
+  font-family: Inter;
+  font-weight: 700;
+  letter-spacing: 4.20px;
+  word-wrap: break-word;
+}
+
+.Home {
+  left: 481px;
+  top: 42px;
+  font-weight: 600;
+}
+
+.Products {
+  left: 610px;
+  top: 42px;
+}
+
+.Aboutus {
+  left: 787px;
+  top: 42px;
+}
+
+.Contact {
+  left: 946px;
+  top: 42px;
+}
+
+.Ellipse1 {
+  width: 1598px;
+  height: 1570px;
+  left: 813px;
+  top: -655px;
+  position: absolute;
+  background: #C8E0E8;
+  border-radius: 9999px;
+}
+
+.Container {
+  width: 556px;
+  height: 410px;
+  left: 478px;
+  top: 286px;
+  position: absolute;
+}
+
+.Frame3 {
+  width: 556px;
+  height: 410px;
+  /* left: 0px;
+  top: 0px; */
+  /* position: absolute; */
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.Rectangle9 {
+  width: 556px;
+  height: 410px;
+  background: #F9F7F7;
+  border-radius: 15px;
+}
+
+.LoginToYourAccount {
+  width: 496px;
+  height: 64px;
+  left: 30px;
+  top: 13px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 38px;
+  font-family: Inter;
+  font-weight: 600;
+  letter-spacing: 3.80px;
+  word-wrap: break-word;
+}
+
+.LoginUsingSocialNetworks {
+  width: 246px;
+  height: 30px;
+  left: 152px;
+  top: 77px;
+  position: absolute;
+  text-align: center;
+  color: rgba(125.38, 118.58, 118.58, 0.37);
+  font-size: 15px;
+  font-family: Inter;
+  font-weight: 600;
+  letter-spacing: 1.50px;
+  word-wrap: break-word;
+}
+
+.Image3, .Image4, .Image5 {
+  position: absolute;
+}
+
+.Image3 {
+  width: 50px;
+  height: 47px;
+  left: 195px;
+  top: 124px;
+  mix-blend-mode: "darken";
+}
+
+.Image4 {
+  width: 60px;
+  height: 47px;
+  left: 249px;
+  top: 125px;
+  mix-blend-mode: "darken";
+}
+
+.Image5 {
+  width: 50px;
+  height: 47px;
+  left: 311px;
+  top: 124px;
+  mix-blend-mode: "darken";
+}
+
+.Image6 {
+  width: 312px;
+  height: 20px;
+  left: 122px;
+  top: 194px;
+  position: absolute;
+  
+}
+
+.Frame1, .Frame2 {
+  width: 213px;
+  height: 30px;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.44);
+  border: 0.50px black solid;
+  justify-content: flex-end;
+  align-items: center;
+  display: inline-flex;
+}
+
+.Frame1 {
+  left: 171px;
+  top: 231px;
+}
+
+.Frame2 {
+  left: 171px;
+  top: 284px;
+}
+
+.EmailOrPhoneNumber, .Password {
+  width: 207px;
+  height: 23px;
+  color: #A5A3A3;
+  font-size: 10px;
+  font-family: Inter;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+}
+
+.Group2 {
+  width: 524px;
+  height: 39px;
+  left: 16px;
+  top: 358px;
+  position: absolute;
+}
+
+.Rectangle3 {
+  width: 524px;
+  height: 39px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: linear-gradient(180deg, #9AE0D3 21%, #34AFA0 89%);
+  border-radius: 15px;
+  border: 1.50px #69ABA2 solid;
+}
+
+.Login {
+  width: 75px;
+  height: 20px;
+  left: 230px;
+  top: 10px;
+  position: absolute;
+  color: #F9F7F7;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 800;
+  letter-spacing: 4.90px;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.Group2:hover .Rectangle3 {
+  background: linear-gradient(180deg, #8ACCC3 21%, #30A093 89%);
+  transform: scale(1.02);
+}
+
+.Group2:hover .Login {
+  color: white;
+}
+
+a {
+  color: #2C4757;
+  text-decoration: none;
+}
+
+.Products a {
+  color: #2C4757;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.search-input {
+  padding: 10px;
+  width: 196px;
+  height: 15px;
+  position: absolute;
+  left: 0px;
+}
+
+/* Footer */
+  
+.footer {
+  background: inherit;
+  margin-top: 0px;
+  width: 1512px;
+  background-color: #191919;
+}
+
+.foot {
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footlinks h4 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.footlinks h4::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 70px;
+  left: 0;
+  bottom: -7px;
+  background: white;
+}
+
+.footlinks ul li {
+  margin-bottom: 15px;
+}
+
+.footlinks ul li a {
+  font-size: 17px;
+  color: #dddddd;
+  display: block;
+  transition: ease 0.3s;
+}
+
+.footlinks ul li a:hover {
+  transform: translate(6px);
+  color: white;
+}
+
+.social a {
+  font-size: 25px;
+  margin: 4px;
+  height: 40px;
+  width: 40px;
+  color: rgb(21, 74, 74);
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: ease 0.3s;
+}
+
+.social a:hover {
+  transform: scale(1.2);
+}
+
+.end {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 12px;
+}
+
+.end p {
+  font-size: 15px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 300;
+}

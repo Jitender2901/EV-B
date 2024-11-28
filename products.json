@@ -1,0 +1,31 @@
+[
+  {
+      "id": "1",
+      "image": "./img/spectra.png",
+      "name": "EV-B Spectra Harness the power of dual motors in the Spectra, offering unmatched torque and a smooth ride, wrapped in a sleek, metallic frame.",
+      "rating": { "stars": 4, "count": 87 },
+      "priceCents": 149900
+  },
+  {
+      "id": "2",
+      "image": "./img/nova.png",
+      "name": "EV-B Nova Experience the Nova’s cutting-edge design with its integrated solar charging panels, ensuring you stay powered up no matter where your journey takes you.",
+      "rating": { "stars": 2.5, "count": 127 },
+      "priceCents": 152500
+  },
+  {
+      "id": "3",
+      "image": "./img/EV-B.png",
+      "name": "EV-B Comet The Comet redefines speed with its aerodynamic build and ultra-lightweight materials, enabling rapid acceleration and high performance.",
+      "rating": { "stars": 3.5, "count": 56 },
+      "priceCents": 175000
+  },
+  {
+      "id": "4",
+      "image": "./img/eclipse.png",
+      "name": "EV-B Eclipse Enjoy the silence with Eclipse’s whisper-quiet engine and vibration damping system for a truly serene biking experience.",
+      "rating": { "stars": 3, "count": 32 },
+      "priceCents": 178600
+  }
+  
+]
